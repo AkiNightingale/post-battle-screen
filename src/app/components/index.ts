@@ -1,0 +1,1 @@
+export { default as BattleResult } from "./battle-result";
