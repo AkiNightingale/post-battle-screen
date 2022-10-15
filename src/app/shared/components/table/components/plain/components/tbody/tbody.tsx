@@ -25,18 +25,20 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
             <Tr
               key={ record.id }
               color="white"
-              backgroundColor="transparent"
-              bgGradient={ record?.currentUser ? 'linear(to-r, green.900, green.300)' : "initial" }
+              border={ record?.currentUser ? "1px" : "initial" }
               display="table-row"
               boxShadow="none"
               mx={ 0 }
               mb={ { base: 4, sm: 0 } }
               cursor="default"
+              _hover={ {
+                bgGradient: 'linear(to-r, gray.600 20%, orange.700 50%, gray.600 80%)'
+              } }
             >
               { columns.map((column) => {
                 const {
                   key,
-                  props: { dataKey, render },
+                  props: { dataKey, render, ...tdProps },
                 } = column as React.ReactElement<ColumnProps>;
                 const value = get(record, dataKey);
 
@@ -46,22 +48,8 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
                     display="table-cell"
                     justifyContent="space-between"
                     borderBottom="initial"
-                    py={ 4 }
-                    _first={ {
-                      paddingTop: 4,
-                    } }
-                    _last={ {
-                      paddingBottom: 4,
-                    } }
-                    _before={ {
-                      content: "none",
-                      textTransform: "uppercase",
-                      fontWeight: "bold",
-                      fontSize: "xs",
-                    } }
-                    _ltr={ {
-                      textAlign: "left",
-                    } }
+                    fontWeight="semibold"
+                    { ...tdProps }
                   >
                     { render ? render(value, data[index]) : value }
                   </Td>

@@ -2,13 +2,14 @@ import * as React from 'react';
 import axios from "axios";
 import { Wrapper } from "@shared";
 import { Center, Divider, Flex, Heading, TableContainer } from "@chakra-ui/react";
-import { Table } from "@shared/components";
+import { UserInfoType } from "./duck";
+import { ScoreTable } from "./components";
 
 const Content: React.FC = () => {
   const [loadingW, setLoadingW] = React.useState(false);
   const [loadingL, setLoadingL] = React.useState(false);
-  const [winners, setWinners] = React.useState();
-  const [losers, setLosers] = React.useState();
+  const [winners, setWinners] = React.useState<UserInfoType[]>([]);
+  const [losers, setLosers] = React.useState<UserInfoType[]>([]);
 
   const getWinners = async () => {
     setLoadingW(true);
@@ -45,23 +46,16 @@ const Content: React.FC = () => {
         display="flex"
       >
         <Flex w="full" direction="column">
-          <Center>
+          <Center mb={8}>
             <Heading fontFamily="serif" color="white">
               Your Squad
             </Heading>
           </Center>
 
-          <Table
-            key="winners"
-            loading={ loadingW }
-            data={ winners }
-          >
-            <Table.Column
-              key="name"
-              dataKey="nickname"
-              label="nickname"
-            />
-          </Table>
+          <ScoreTable
+            loading={loadingW}
+            data={winners}
+          />
         </Flex>
 
         <Center height='100hv'>
@@ -74,23 +68,16 @@ const Content: React.FC = () => {
         </Center>
 
         <Flex w="full" direction="column">
-          <Center>
+          <Center mb={8}>
             <Heading fontFamily="serif" color="white">
               Enemy Squad
             </Heading>
           </Center>
 
-          <Table
-            key="losers"
-            loading={ loadingL }
-            data={ losers }
-          >
-            <Table.Column
-              key="name"
-              dataKey="nickname"
-              label="nickname"
-            />
-          </Table>
+          <ScoreTable
+            loading={loadingL}
+            data={losers}
+          />
         </Flex>
 
       </TableContainer>
