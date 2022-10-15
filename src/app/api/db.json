@@ -1,0 +1,906 @@
+{
+  "winners": [
+    {
+      "id": 1,
+      "nickname": "Nickname 1",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 2,
+      "nickname": "Nickname 2",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 3,
+      "nickname": "Nickname 3",
+      "currentUser": true,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 4,
+      "nickname": "Nickname 4",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 5,
+      "nickname": "Nickname 5",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 6,
+      "nickname": "Nickname 6",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 7,
+      "nickname": "Nickname 7",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 8,
+      "nickname": "Nickname 8",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 9,
+      "nickname": "Nickname 9",
+      "currentUser": false,
+      "kills": 9,
+      "deaths": 4,
+      "scores": 900,
+      "alive": false
+    },
+    {
+      "id": 10,
+      "nickname": "Nickname 10",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 11,
+      "nickname": "Nickname 11",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 12,
+      "nickname": "Nickname 12",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 13,
+      "nickname": "Nickname 13",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 14,
+      "nickname": "Nickname 14",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 15,
+      "nickname": "Nickname 15",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 16,
+      "nickname": "Nickname 16",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 17,
+      "nickname": "Nickname 17",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 18,
+      "nickname": "Nickname 18",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 19,
+      "nickname": "Nickname 19",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 20,
+      "nickname": "Nickname 20",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 21,
+      "nickname": "Nickname 21",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 22,
+      "nickname": "Nickname 22",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 23,
+      "nickname": "Nickname 23",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 24,
+      "nickname": "Nickname 24",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 25,
+      "nickname": "Nickname 25",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 26,
+      "nickname": "Nickname 26",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 27,
+      "nickname": "Nickname 27",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 28,
+      "nickname": "Nickname 28",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 29,
+      "nickname": "Nickname 29",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 30,
+      "nickname": "Nickname 30",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 31,
+      "nickname": "Nickname 31",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 32,
+      "nickname": "Nickname 32",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 33,
+      "nickname": "Nickname 33",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 34,
+      "nickname": "Nickname 34",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 35,
+      "nickname": "Nickname 35",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 36,
+      "nickname": "Nickname 36",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 37,
+      "nickname": "Nickname 37",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 38,
+      "nickname": "Nickname 38",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 39,
+      "nickname": "Nickname 39",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 40,
+      "nickname": "Nickname 40",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 41,
+      "nickname": "Nickname 41",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 42,
+      "nickname": "Nickname 42",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 43,
+      "nickname": "Nickname 43",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 44,
+      "nickname": "Nickname 44",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 45,
+      "nickname": "Nickname 45",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 46,
+      "nickname": "Nickname 46",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 47,
+      "nickname": "Nickname 47",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 48,
+      "nickname": "Nickname 48",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 49,
+      "nickname": "Nickname 49",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 50,
+      "nickname": "Nickname 50",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    }
+  ],
+  "losers": [
+    {
+      "id": 110,
+      "nickname": "Nickname 110",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 120,
+      "nickname": "Nickname 120",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 130,
+      "nickname": "Nickname 130",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 140,
+      "nickname": "Nickname 140",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 150,
+      "nickname": "Nickname 150",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 160,
+      "nickname": "Nickname 160",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 170,
+      "nickname": "Nickname 170",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 180,
+      "nickname": "Nickname 180",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 190,
+      "nickname": "Nickname 190",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 200,
+      "nickname": "Nickname 200",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 210,
+      "nickname": "Nickname 210",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 220,
+      "nickname": "Nickname 220",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 230,
+      "nickname": "Nickname 230",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 240,
+      "nickname": "Nickname 240",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 250,
+      "nickname": "Nickname 250",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 260,
+      "nickname": "Nickname 260",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 270,
+      "nickname": "Nickname 270",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 280,
+      "nickname": "Nickname 280",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 290,
+      "nickname": "Nickname 290",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 300,
+      "nickname": "Nickname 300",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 310,
+      "nickname": "Nickname 310",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 320,
+      "nickname": "Nickname 320",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 330,
+      "nickname": "Nickname 330",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 340,
+      "nickname": "Nickname 340",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 350,
+      "nickname": "Nickname 350",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 360,
+      "nickname": "Nickname 360",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 370,
+      "nickname": "Nickname 370",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 380,
+      "nickname": "Nickname 380",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 390,
+      "nickname": "Nickname 390",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 400,
+      "nickname": "Nickname 400",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 410,
+      "nickname": "Nickname 410",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 420,
+      "nickname": "Nickname 420",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 430,
+      "nickname": "Nickname 430",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 440,
+      "nickname": "Nickname 440",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 450,
+      "nickname": "Nickname 450",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 460,
+      "nickname": "Nickname 460",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 470,
+      "nickname": "Nickname 470",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 480,
+      "nickname": "Nickname 480",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 490,
+      "nickname": "Nickname 490",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 500,
+      "nickname": "Nickname 500",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 510,
+      "nickname": "Nickname 510",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 520,
+      "nickname": "Nickname 520",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 530,
+      "nickname": "Nickname 530",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 540,
+      "nickname": "Nickname 540",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 550,
+      "nickname": "Nickname 550",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 560,
+      "nickname": "Nickname 560",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 570,
+      "nickname": "Nickname 570",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 0,
+      "scores": 100,
+      "alive": false
+    },
+    {
+      "id": 580,
+      "nickname": "Nickname 580",
+      "currentUser": false,
+      "kills": 1,
+      "deaths": 1,
+      "scores": 100,
+      "alive": true
+    },
+    {
+      "id": 590,
+      "nickname": "Nickname 590",
+      "currentUser": false,
+      "kills": 9,
+      "deaths": 4,
+      "scores": 900,
+      "alive": false
+    },
+    {
+      "id": 600,
+      "nickname": "Nickname 600",
+      "currentUser": false,
+      "kills": 9,
+      "deaths": 4,
+      "scores": 900,
+      "alive": false
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { Content, Footer, Header } from "./components";
 import { Flex } from "@chakra-ui/react";
-import backgroundImage from "../../assets/bgc.jpg"
+import { backgroundImage } from "@assets"
 
 const BattleResult = () => {
   return (

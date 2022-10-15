@@ -20,3 +20,16 @@ body {
 body > #root > div {
   height: 100vh;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: transparent;
+}
+
+/* thumb for scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 9rem;
+}
