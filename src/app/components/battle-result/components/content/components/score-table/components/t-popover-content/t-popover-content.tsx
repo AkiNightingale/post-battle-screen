@@ -41,7 +41,7 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
 
       <PopoverBody>
         <Flex
-          justifyContent="center"
+          justifyContent={ user.currentUser ? "center" : "space-between" }
           alignItems="center"
         >
           <Grid

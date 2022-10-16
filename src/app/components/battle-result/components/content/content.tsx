@@ -34,7 +34,7 @@ const Content: React.FC = () => {
           <Flex w="full" direction="column">
             <Center mb={ 8 }>
               <Heading fontFamily="serif" color="white">
-                Your Squad
+                Your Team
               </Heading>
             </Center>
 
@@ -61,7 +61,7 @@ const Content: React.FC = () => {
           <Flex w="full" direction="column">
             <Center mb={ 8 }>
               <Heading fontFamily="serif" color="white">
-                Enemy Squad
+                Enemy Team
               </Heading>
             </Center>
 
