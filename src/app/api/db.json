@@ -67,7 +67,7 @@
       "deaths": 0,
       "score": 676,
       "isAlive": true,
-      "isFriendOfCurrent": false
+      "isFriendOfCurrent": true
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
       "deaths": 4,
       "score": 900,
       "isAlive": false,
-      "isFriendOfCurrent": false
+      "isFriendOfCurrent": true
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
       "deaths": 1,
       "score": 445,
       "isAlive": false,
-      "isFriendOfCurrent": false
+      "isFriendOfCurrent": true
     },
     {
       "id": 13,
@@ -599,7 +599,7 @@
       "deaths": 1,
       "score": 100,
       "isAlive": true,
-      "isFriendOfCurrent": false
+      "isFriendOfCurrent": true
     },
     {
       "id": 210,

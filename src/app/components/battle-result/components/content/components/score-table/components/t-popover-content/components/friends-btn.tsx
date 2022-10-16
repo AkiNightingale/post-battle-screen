@@ -38,7 +38,7 @@ const FriendsBtn: React.FC<FriendsBtnProps> = ({
   const handleBtnClick = () => {
     if (winners && losers) {
       const isWinnerTeam = !!winners.find((winner) => winner.id === selectedUser.id);
-      const isLoserTeam = !!winners.find((winner) => winner.id === selectedUser.id);
+      const isLoserTeam = !!losers.find((loser) => loser.id === selectedUser.id);
 
       setPathUrl(isWinnerTeam ? "http://localhost:3500/winners" :
         isLoserTeam ? "http://localhost:3500/losers" : "");
@@ -49,14 +49,14 @@ const FriendsBtn: React.FC<FriendsBtnProps> = ({
       <Button
         ml={ 4 }
         leftIcon={ <FaHandshake fontSize="1.5rem" /> }
-        backgroundColor="#608F4A"
+        backgroundColor={ selectedUser.isFriendOfCurrent ? "red.700" : "#608F4A" }
         _hover={ {
-          backgroundColor: "#6da155"
+          backgroundColor: selectedUser.isFriendOfCurrent ? "red.500" : "#6da155"
         } }
         _focus={ {
-          backgroundColor: "#6da155"
+          backgroundColor: selectedUser.isFriendOfCurrent ? "red.500" : "#6da155"
         } }
-        color="black"
+        color="white"
         fontFamily="serif"
         textTransform="uppercase"
         onClick={ handleBtnClick }
