@@ -21,6 +21,10 @@ body > #root > div {
   height: 100vh;
 }
 
+:root {
+  overflow: hidden;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -32,4 +36,8 @@ body > #root > div {
 ::-webkit-scrollbar-thumb {
   background-color: gray;
   border-radius: 9rem;
+}
+
+p, header{
+  font-family: serif;
 }

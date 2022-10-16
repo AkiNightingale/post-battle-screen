@@ -17,7 +17,11 @@ const Content: React.FC = () => {
     await axios.get('http://localhost:3500/winners')
       .then(({ data }) => {
         if (data) {
-          setWinners(data);
+          setWinners(data.sort(
+            (a: any, b: any) => {
+              return b.score - a.score;
+            }
+          ));
         }
       }).catch(error => error.response.data)
       .finally(() => setLoadingW(false));
@@ -29,7 +33,11 @@ const Content: React.FC = () => {
     await axios.get('http://localhost:3500/losers')
       .then(({ data }) => {
         if (data) {
-          setLosers(data);
+          setLosers(data.sort(
+            (a: any, b: any) => {
+              return b.score - a.score;
+            }
+          ));
         }
       }).catch(error => error.response.data)
       .finally(() => setLoadingL(false));
@@ -46,15 +54,15 @@ const Content: React.FC = () => {
         display="flex"
       >
         <Flex w="full" direction="column">
-          <Center mb={8}>
+          <Center mb={ 8 }>
             <Heading fontFamily="serif" color="white">
               Your Squad
             </Heading>
           </Center>
 
           <ScoreTable
-            loading={loadingW}
-            data={winners}
+            loading={ loadingW }
+            data={ winners }
           />
         </Flex>
 
@@ -68,15 +76,15 @@ const Content: React.FC = () => {
         </Center>
 
         <Flex w="full" direction="column">
-          <Center mb={8}>
+          <Center mb={ 8 }>
             <Heading fontFamily="serif" color="white">
               Enemy Squad
             </Heading>
           </Center>
 
           <ScoreTable
-            loading={loadingL}
-            data={losers}
+            loading={ loadingL }
+            data={ losers }
           />
         </Flex>
 

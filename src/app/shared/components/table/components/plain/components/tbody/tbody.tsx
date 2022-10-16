@@ -15,6 +15,7 @@ import { tbodyTypes } from "./duck";
 const TBody: React.FC<tbodyTypes.TBodyProps> = ({
   data,
   columns,
+  trProps,
   ...rest
 }) => {
   return (
@@ -29,11 +30,11 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
               display="table-row"
               boxShadow="none"
               mx={ 0 }
-              mb={ { base: 4, sm: 0 } }
               cursor="default"
               _hover={ {
                 bgGradient: 'linear(to-r, gray.600 20%, orange.700 50%, gray.600 80%)'
               } }
+              {...trProps}
             >
               { columns.map((column) => {
                 const {
@@ -49,6 +50,7 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
                     justifyContent="space-between"
                     borderBottom="initial"
                     fontWeight="semibold"
+                    py={2}
                     { ...tdProps }
                   >
                     { render ? render(value, data[index]) : value }
@@ -63,7 +65,7 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
           <Td colSpan={ columns.length } textAlign="center">
             <VStack my={ 20 }>
               <Icon as={ BsInboxes } color="blue.500" fontSize={ 50 } mb={ 2 } />
-              <Text fontSize={ 16 }>{ "emptyData" }</Text>
+              <Text fontSize={ 16 }>{ "Empty Data" }</Text>
             </VStack>
           </Td>
         </Tr>

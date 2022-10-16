@@ -1,9 +1,15 @@
 import React from "react";
 import { Table } from "@shared";
 import { ScoreTableProps } from "./duck";
-import { Icon, Text } from "@chakra-ui/react";
+import {
+  Icon,
+  Popover,
+  PopoverTrigger,
+  Text
+} from "@chakra-ui/react";
 import { GiDeathSkull } from "react-icons/gi";
 import { UserInfoType } from "../../duck";
+import { TPopoverContent } from "./components";
 
 const ScoreTable: React.FC<ScoreTableProps> = ({
   loading,
@@ -37,11 +43,19 @@ const ScoreTable: React.FC<ScoreTableProps> = ({
         dataKey="nickname"
         label="nickname"
         render={ (nickname, user: UserInfoType) => {
-          return (
-            <Text color={ user?.isAlive ? "white" : "gray.500" }>
-              { nickname }
-            </Text>
-          )
+            return (
+              <Popover trigger="hover" placement="right">
+                <PopoverTrigger>
+                  <Text
+                    color={ user?.isAlive ? "white" : "gray.500" }
+                    w="fit-content"
+                  >
+                    { nickname }
+                  </Text>
+                </PopoverTrigger>
+                <TPopoverContent user={user} />
+              </Popover>
+            )
         } }
       />
 

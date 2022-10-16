@@ -9,6 +9,7 @@ import { ColumnProps } from "../../../column/duck/types";
 
 const Thead: React.FC<theadTypes.THeadProps> = ({
   columns,
+  thProps,
   ...rest
 }) => {
   return (
@@ -25,6 +26,8 @@ const Thead: React.FC<theadTypes.THeadProps> = ({
               fontWeight="bold"
               whiteSpace="nowrap"
               color="white"
+              fontFamily="serif"
+              {...thProps}
             >
               { label }
             </Th>

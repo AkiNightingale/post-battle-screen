@@ -9,6 +9,8 @@ const Table: React.FC<plainTableTypes.PlainTableProps> = ({
   children,
   theadProps,
   tbodyProps,
+  thHeadProps,
+  trBodyProps,
   loading,
   ...rest
 }) => {
@@ -17,16 +19,18 @@ const Table: React.FC<plainTableTypes.PlainTableProps> = ({
   return (
     <ChakraTable fontSize="sm" {...rest}>
       <THead
-        {...theadProps}
         columns={columns}
+        thProps={thHeadProps}
+        {...theadProps}
       />
       {loading ? (
         <Skeleton />
       ) : (
         <TBody
-          {...tbodyProps}
           data={data}
           columns={columns}
+          trProps={trBodyProps}
+          {...tbodyProps}
         />
       )}
     </ChakraTable>
