@@ -3,10 +3,14 @@ import axios from "axios";
 import { UserInfoType } from "@shared/duck/types";
 
 export const getWinners = async (
-  setLoadingW: React.Dispatch<React.SetStateAction<boolean>>,
   setWinners: React.Dispatch<React.SetStateAction<UserInfoType[]>>,
+  setLoadingW?: React.Dispatch<React.SetStateAction<boolean>>,
   setRefresh?: React.Dispatch<React.SetStateAction<boolean>>,
 ) => {
+  if (setLoadingW) {
+    setLoadingW(true);
+  }
+
   await axios.get('http://localhost:3500/winners')
     .then(({ data }) => {
       if (data) {
@@ -17,9 +21,12 @@ export const getWinners = async (
         )
         setWinners(sortedData);
       }
-    }).catch(error => error.response.data)
+    })
+    .catch(error => error.response.data)
     .finally(() => {
-      setLoadingW(false);
+      if (setLoadingW) {
+        setLoadingW(false);
+      }
       if (setRefresh) {
         setRefresh(false);
       }
@@ -27,10 +34,14 @@ export const getWinners = async (
 }
 
 export const getLosers = async (
-  setLoadingL: React.Dispatch<React.SetStateAction<boolean>>,
   setLosers: React.Dispatch<React.SetStateAction<UserInfoType[]>>,
+  setLoadingL?: React.Dispatch<React.SetStateAction<boolean>>,
   setRefresh?: React.Dispatch<React.SetStateAction<boolean>>,
 ) => {
+  if (setLoadingL) {
+    setLoadingL(true);
+  }
+
   await axios.get('http://localhost:3500/losers')
     .then(({ data }) => {
       if (data) {
@@ -43,7 +54,9 @@ export const getLosers = async (
       }
     }).catch(error => error.response.data)
     .finally(() => {
-      setLoadingL(false);
+      if (setLoadingL) {
+        setLoadingL(false);
+      }
       if (setRefresh) {
         setRefresh(false);
       }

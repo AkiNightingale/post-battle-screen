@@ -7,10 +7,10 @@ import {
   Tr,
   VStack,
 } from "@chakra-ui/react";
-import { BsInboxes } from "react-icons/bs";
 import { get } from "lodash-es";
 import { columnTypes } from "../../../column/duck";
 import { tbodyTypes } from "./duck";
+import { GiTriangleTarget } from "react-icons/gi";
 
 const TBody: React.FC<tbodyTypes.TBodyProps> = ({
   data,
@@ -33,7 +33,7 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
               bgGradient={ record?.isFriendOfCurrent ?
                 'linear(to-r, rgba(96, 143, 74, 0.1) 30%, rgba(109, 161, 85, 0.1) 85%)' :
                 "initial"
-            }
+              }
               _hover={ {
                 bgGradient: 'linear(to-r, gray.600 20%, orange.700 50%, gray.600 80%)'
               } }
@@ -67,8 +67,8 @@ const TBody: React.FC<tbodyTypes.TBodyProps> = ({
         <Tr>
           <Td colSpan={ columns.length } textAlign="center">
             <VStack my={ 20 }>
-              <Icon as={ BsInboxes } color="blue.500" fontSize={ 50 } mb={ 2 } />
-              <Text fontSize={ 16 }>{ "Empty Data" }</Text>
+              <Icon as={ GiTriangleTarget } color="white" fontSize={ 50 } mb={ 2 } />
+              <Text fontSize={ 16 } color="white"> Empty Data </Text>
             </VStack>
           </Td>
         </Tr>

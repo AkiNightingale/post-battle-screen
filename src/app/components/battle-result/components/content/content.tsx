@@ -14,14 +14,14 @@ const Content: React.FC = () => {
 
   React.useEffect(() => {
     /** Note: only for first render! */
-    contentUtils.getWinners(setLoadingW, setWinners);
-    contentUtils.getLosers(setLoadingL, setLosers);
+    contentUtils.getWinners(setWinners, setLoadingW);
+    contentUtils.getLosers(setLosers, setLoadingL);
   }, []);
 
   React.useEffect(() => {
     if (refresh) {
-      contentUtils.getWinners(setLoadingW, setWinners, setRefresh);
-      contentUtils.getLosers(setLoadingL, setLosers, setRefresh);
+      contentUtils.getWinners(setWinners, undefined, setRefresh);
+      contentUtils.getLosers(setLosers, undefined, setRefresh);
     }
   }, [refresh]);
 

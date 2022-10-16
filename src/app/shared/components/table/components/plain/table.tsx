@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Table as ChakraTable } from "@chakra-ui/react";
 
-import { THead, TBody, Skeleton } from "./components";
+import { THead, TBody, TSkeleton } from "./components";
 import { plainTableTypes } from "./duck";
 
 const Table: React.FC<plainTableTypes.PlainTableProps> = ({
@@ -24,7 +24,7 @@ const Table: React.FC<plainTableTypes.PlainTableProps> = ({
         {...theadProps}
       />
       {loading ? (
-        <Skeleton />
+        <TSkeleton columns={columns} />
       ) : (
         <TBody
           data={data}

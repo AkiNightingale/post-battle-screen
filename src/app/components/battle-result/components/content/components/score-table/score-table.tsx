@@ -25,7 +25,7 @@ const ScoreTable: React.FC<ScoreTableProps> = ({
         dataKey="id"
         label=""
         w="5%"
-        render={ (id, user: sharedTypes.UserInfoType) => {
+        render={ (_id, user: sharedTypes.UserInfoType) => {
           return (
             <>
               { data?.length && user && (
@@ -43,19 +43,19 @@ const ScoreTable: React.FC<ScoreTableProps> = ({
         dataKey="nickname"
         label="nickname"
         render={ (nickname, user: sharedTypes.UserInfoType) => {
-            return (
-              <Popover trigger="hover" placement="right">
-                <PopoverTrigger>
-                  <Text
-                    color={ user?.isAlive ? "white" : "gray.500" }
-                    w="fit-content"
-                  >
-                    { nickname }
-                  </Text>
-                </PopoverTrigger>
-                <TPopoverContent user={user} />
-              </Popover>
-            )
+          return (
+            <Popover trigger="hover" placement="right">
+              <PopoverTrigger>
+                <Text
+                  color={ user?.isAlive ? "white" : "gray.500" }
+                  w="fit-content"
+                >
+                  { nickname }
+                </Text>
+              </PopoverTrigger>
+              <TPopoverContent user={ user } />
+            </Popover>
+          )
         } }
       />
 
