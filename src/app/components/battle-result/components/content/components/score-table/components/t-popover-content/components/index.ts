@@ -1,0 +1,1 @@
+export { default as FriendsBtn } from "./friends-btn";

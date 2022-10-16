@@ -1,6 +1,6 @@
-import { UserInfoType } from "../../../duck";
+import { sharedTypes } from "@shared/duck";
 
 export interface ScoreTableProps {
   loading: boolean;
-  data: UserInfoType[];
+  data: sharedTypes.UserInfoType[];
 }

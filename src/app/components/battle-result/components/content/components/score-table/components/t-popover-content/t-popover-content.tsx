@@ -1,19 +1,18 @@
 import React from "react";
 import {
-  Button, Center, Divider, Flex, Grid, GridItem, Image,
+  Center, Divider, Flex, Grid, GridItem, Image,
   PopoverArrow,
   PopoverBody,
-  PopoverCloseButton,
   PopoverContent,
   PopoverHeader
 } from "@chakra-ui/react";
-import { UserInfoType } from "../../../../duck";
 import { BiTargetLock } from "react-icons/bi";
 import { GiSkullCrack } from "react-icons/gi";
-import { FaHandshake } from "react-icons/fa";
+import { FriendsBtn } from "./components";
+import { sharedTypes } from "@shared/duck";
 
 interface TPopoverContentProps {
-  user: UserInfoType
+  user: sharedTypes.UserInfoType
 }
 
 const TPopoverContent: React.FC<TPopoverContentProps> = ({
@@ -21,7 +20,7 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
 }) => {
   return (
     <PopoverContent
-      color='black'
+      color='white'
       bgGradient='linear(to bottom right, gray.600 20%, orange.700 50%, gray.600 80%)'
       borderColor='gray.600'
       fontFamily="serif"
@@ -35,7 +34,6 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
       >
         { user.nickname }
       </PopoverHeader>
-      <PopoverCloseButton />
 
       <Center borderColor="initial">
         <Divider color="gray.400" w="90%" />
@@ -56,19 +54,19 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
               <GridItem
                 borderRight="1px"
                 borderBottom="1px"
-                borderColor="black"
+                borderColor="white"
                 p={ 2 }
               >
-                <Image as={ BiTargetLock } color="black" fontSize="2rem" />
+                <Image as={ BiTargetLock } color="white" fontSize="2rem" />
               </GridItem>
 
               <GridItem
                 borderLeft="1px"
                 borderBottom="1px"
-                borderColor="black"
+                borderColor="white"
                 p={ 2 }
               >
-                <Image as={ GiSkullCrack } color="black" fontSize="2rem" />
+                <Image as={ GiSkullCrack } color="white" fontSize="2rem" />
               </GridItem>
             </>
 
@@ -76,8 +74,8 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
               <GridItem
                 borderRight="1px"
                 borderTop="1px"
-                borderColor="black"
-                color="black"
+                borderColor="white"
+                color="white"
                 fontSize="2rem"
                 lineHeight="2rem"
                 p={ 2 }
@@ -88,8 +86,8 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
               <GridItem
                 borderLeft="1px"
                 borderTop="1px"
-                borderColor="black"
-                color="black"
+                borderColor="white"
+                color="white"
                 fontSize="2rem"
                 lineHeight="2rem"
                 p={ 2 }
@@ -98,22 +96,11 @@ const TPopoverContent: React.FC<TPopoverContentProps> = ({
               </GridItem>
             </>
           </Grid>
-
-          <Button
-            ml={ 4 }
-            leftIcon={ <FaHandshake fontSize="1.5rem" /> }
-            backgroundColor="#608F4A"
-            _hover={ {
-              backgroundColor: "#6da155"
-            } }
-            _focus={ {
-              backgroundColor: "#6da155"
-            } }
-            color="black"
-            fontFamily="serif"
-          >
-            ADD TO FRIENDS
-          </Button>
+          {
+            !user.currentUser && (
+              <FriendsBtn selectedUser={ user } />
+            )
+          }
         </Flex>
       </PopoverBody>
     </PopoverContent>

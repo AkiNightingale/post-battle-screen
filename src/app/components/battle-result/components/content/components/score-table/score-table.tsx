@@ -8,8 +8,8 @@ import {
   Text
 } from "@chakra-ui/react";
 import { GiDeathSkull } from "react-icons/gi";
-import { UserInfoType } from "../../duck";
 import { TPopoverContent } from "./components";
+import { sharedTypes } from "@shared/duck";
 
 const ScoreTable: React.FC<ScoreTableProps> = ({
   loading,
@@ -25,7 +25,7 @@ const ScoreTable: React.FC<ScoreTableProps> = ({
         dataKey="id"
         label=""
         w="5%"
-        render={ (id, user: UserInfoType) => {
+        render={ (id, user: sharedTypes.UserInfoType) => {
           return (
             <>
               { data?.length && user && (
@@ -42,7 +42,7 @@ const ScoreTable: React.FC<ScoreTableProps> = ({
         key="name"
         dataKey="nickname"
         label="nickname"
-        render={ (nickname, user: UserInfoType) => {
+        render={ (nickname, user: sharedTypes.UserInfoType) => {
             return (
               <Popover trigger="hover" placement="right">
                 <PopoverTrigger>

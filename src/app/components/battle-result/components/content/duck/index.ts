@@ -1,1 +1,1 @@
-export * from "./types";
+export * as contentUtils from "./utils";

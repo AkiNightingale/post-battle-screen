@@ -1,94 +1,82 @@
 import * as React from 'react';
-import axios from "axios";
 import { Wrapper } from "@shared";
 import { Center, Divider, Flex, Heading, TableContainer } from "@chakra-ui/react";
-import { UserInfoType } from "./duck";
+import { contentUtils } from "./duck";
 import { ScoreTable } from "./components";
+import { LosersContext, sharedTypes, WinnersContext, RefreshContext } from '@shared/duck';
 
 const Content: React.FC = () => {
   const [loadingW, setLoadingW] = React.useState(false);
   const [loadingL, setLoadingL] = React.useState(false);
-  const [winners, setWinners] = React.useState<UserInfoType[]>([]);
-  const [losers, setLosers] = React.useState<UserInfoType[]>([]);
-
-  const getWinners = async () => {
-    setLoadingW(true);
-
-    await axios.get('http://localhost:3500/winners')
-      .then(({ data }) => {
-        if (data) {
-          setWinners(data.sort(
-            (a: any, b: any) => {
-              return b.score - a.score;
-            }
-          ));
-        }
-      }).catch(error => error.response.data)
-      .finally(() => setLoadingW(false));
-  };
-
-  const getLosers = async () => {
-    setLoadingL(true);
-
-    await axios.get('http://localhost:3500/losers')
-      .then(({ data }) => {
-        if (data) {
-          setLosers(data.sort(
-            (a: any, b: any) => {
-              return b.score - a.score;
-            }
-          ));
-        }
-      }).catch(error => error.response.data)
-      .finally(() => setLoadingL(false));
-  };
+  const [refresh, setRefresh] = React.useState(false);
+  const [winners, setWinners] = React.useState<sharedTypes.UserInfoType[]>([]);
+  const [losers, setLosers] = React.useState<sharedTypes.UserInfoType[]>([]);
 
   React.useEffect(() => {
-    getWinners();
-    getLosers();
+    /** Note: only for first render! */
+    contentUtils.getWinners(setLoadingW, setWinners);
+    contentUtils.getLosers(setLoadingL, setLosers);
   }, []);
+
+  React.useEffect(() => {
+    if (refresh) {
+      contentUtils.getWinners(setLoadingW, setWinners, setRefresh);
+      contentUtils.getLosers(setLoadingL, setLosers, setRefresh);
+    }
+  }, [refresh]);
 
   return (
     <Wrapper withPadding>
-      <TableContainer
-        display="flex"
-      >
-        <Flex w="full" direction="column">
-          <Center mb={ 8 }>
-            <Heading fontFamily="serif" color="white">
-              Your Squad
-            </Heading>
+      <RefreshContext.Provider value={ { refresh, setRefresh } }>
+        <TableContainer
+          display="flex"
+        >
+          <Flex w="full" direction="column">
+            <Center mb={ 8 }>
+              <Heading fontFamily="serif" color="white">
+                Your Squad
+              </Heading>
+            </Center>
+
+            <WinnersContext.Provider
+              value={ {
+                users: winners,
+              } }>
+              <ScoreTable
+                loading={ loadingW }
+                data={ winners }
+              />
+            </WinnersContext.Provider>
+          </Flex>
+
+          <Center height='100hv'>
+            <Divider
+              orientation="vertical"
+              opacity={ 1 }
+              color="white"
+              m={ 8 }
+            />
           </Center>
 
-          <ScoreTable
-            loading={ loadingW }
-            data={ winners }
-          />
-        </Flex>
+          <Flex w="full" direction="column">
+            <Center mb={ 8 }>
+              <Heading fontFamily="serif" color="white">
+                Enemy Squad
+              </Heading>
+            </Center>
 
-        <Center height='100hv'>
-          <Divider
-            orientation="vertical"
-            opacity={ 1 }
-            color="white"
-            m={ 8 }
-          />
-        </Center>
-
-        <Flex w="full" direction="column">
-          <Center mb={ 8 }>
-            <Heading fontFamily="serif" color="white">
-              Enemy Squad
-            </Heading>
-          </Center>
-
-          <ScoreTable
-            loading={ loadingL }
-            data={ losers }
-          />
-        </Flex>
-
-      </TableContainer>
+            <LosersContext.Provider
+              value={ {
+                users: losers
+              } }>
+              <ScoreTable
+                loading={ loadingL }
+                data={ losers }
+              />
+            </LosersContext.Provider>
+          </Flex>
+        </TableContainer>
+      </RefreshContext.Provider>
     </Wrapper>
   );
 };
