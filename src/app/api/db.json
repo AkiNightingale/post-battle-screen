@@ -2,7 +2,7 @@
   "winners": [
     {
       "id": 1,
-      "nickname": "Nickname 1",
+      "nickname": "Mbrarlwan",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "nickname": "Nickname 2",
+      "nickname": "Kaeere",
       "currentUser": false,
       "kills": 1,
       "deaths": 10,
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "nickname": "Current User",
+      "nickname": "Faeriba",
       "currentUser": true,
       "kills": 14,
       "deaths": 0,
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "nickname": "Nickname 4",
+      "nickname": "Ona",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "nickname": "Nickname 5",
+      "nickname": "Nna",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -51,7 +51,7 @@
     },
     {
       "id": 6,
-      "nickname": "Nickname 6",
+      "nickname": "Utazefele",
       "currentUser": false,
       "kills": 25,
       "deaths": 13,
@@ -61,7 +61,7 @@
     },
     {
       "id": 7,
-      "nickname": "Nickname 7",
+      "nickname": "Mike",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -71,7 +71,7 @@
     },
     {
       "id": 8,
-      "nickname": "Nickname 8",
+      "nickname": "Phav",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -81,7 +81,7 @@
     },
     {
       "id": 9,
-      "nickname": "Nickname 9",
+      "nickname": "Zaneon",
       "currentUser": false,
       "kills": 9,
       "deaths": 4,
@@ -91,7 +91,7 @@
     },
     {
       "id": 10,
-      "nickname": "Nickname 10",
+      "nickname": "Tidamein",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -101,7 +101,7 @@
     },
     {
       "id": 11,
-      "nickname": "Nickname 11",
+      "nickname": "Lligi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -111,7 +111,7 @@
     },
     {
       "id": 12,
-      "nickname": "Nickname 12",
+      "nickname": "Celo",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -121,7 +121,7 @@
     },
     {
       "id": 13,
-      "nickname": "Nickname 13",
+      "nickname": "Shi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -131,7 +131,7 @@
     },
     {
       "id": 14,
-      "nickname": "Nickname 14",
+      "nickname": "Fllith",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -141,7 +141,7 @@
     },
     {
       "id": 15,
-      "nickname": "Nickname 15",
+      "nickname": "Pozi",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -151,7 +151,7 @@
     },
     {
       "id": 16,
-      "nickname": "Nickname 16",
+      "nickname": "Elt",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -161,7 +161,7 @@
     },
     {
       "id": 17,
-      "nickname": "Nickname 17",
+      "nickname": "Gar",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -171,7 +171,7 @@
     },
     {
       "id": 18,
-      "nickname": "Nickname 18",
+      "nickname": "Pherrrgar",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -181,7 +181,7 @@
     },
     {
       "id": 19,
-      "nickname": "Nickname 19",
+      "nickname": "Aneani",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -191,7 +191,7 @@
     },
     {
       "id": 20,
-      "nickname": "Nickname 20",
+      "nickname": "Yerkatyc",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -201,7 +201,7 @@
     },
     {
       "id": 21,
-      "nickname": "Nickname 21",
+      "nickname": "Piennhed",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -211,7 +211,7 @@
     },
     {
       "id": 22,
-      "nickname": "Nickname 22",
+      "nickname": "Lisi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -221,7 +221,7 @@
     },
     {
       "id": 23,
-      "nickname": "Nickname 23",
+      "nickname": "Cli",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -231,7 +231,7 @@
     },
     {
       "id": 24,
-      "nickname": "Nickname 24",
+      "nickname": "Qasidyof",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -241,7 +241,7 @@
     },
     {
       "id": 25,
-      "nickname": "Nickname 25",
+      "nickname": "Phinectt",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -251,7 +251,7 @@
     },
     {
       "id": 26,
-      "nickname": "Nickname 26",
+      "nickname": "Van",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -261,7 +261,7 @@
     },
     {
       "id": 27,
-      "nickname": "Nickname 27",
+      "nickname": "Shau",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -271,7 +271,7 @@
     },
     {
       "id": 28,
-      "nickname": "Nickname 28",
+      "nickname": "Xitantta",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -281,7 +281,7 @@
     },
     {
       "id": 29,
-      "nickname": "Nickname 29",
+      "nickname": "Zuia",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -291,7 +291,7 @@
     },
     {
       "id": 30,
-      "nickname": "Nickname 30",
+      "nickname": "Gryath",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -301,7 +301,7 @@
     },
     {
       "id": 31,
-      "nickname": "Nickname 31",
+      "nickname": "Gum",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -311,7 +311,7 @@
     },
     {
       "id": 32,
-      "nickname": "Nickname 32",
+      "nickname": "Flliv",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -321,7 +321,7 @@
     },
     {
       "id": 33,
-      "nickname": "Nickname 33",
+      "nickname": "Xonifor",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -331,7 +331,7 @@
     },
     {
       "id": 34,
-      "nickname": "Nickname 34",
+      "nickname": "Duspamo",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -341,7 +341,7 @@
     },
     {
       "id": 35,
-      "nickname": "Nickname 35",
+      "nickname": "Xinan",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -351,7 +351,7 @@
     },
     {
       "id": 36,
-      "nickname": "Nickname 36",
+      "nickname": "Ffoncerec",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -361,7 +361,7 @@
     },
     {
       "id": 37,
-      "nickname": "Nickname 37",
+      "nickname": "Chlerdr",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -371,7 +371,7 @@
     },
     {
       "id": 38,
-      "nickname": "Nickname 38",
+      "nickname": "Mohitiela",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -381,7 +381,7 @@
     },
     {
       "id": 39,
-      "nickname": "Nickname 39",
+      "nickname": "Yanngh",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -391,7 +391,7 @@
     },
     {
       "id": 40,
-      "nickname": "Nickname 40",
+      "nickname": "Andi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -401,7 +401,7 @@
     },
     {
       "id": 41,
-      "nickname": "Nickname 41",
+      "nickname": "Rle",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -411,7 +411,7 @@
     },
     {
       "id": 42,
-      "nickname": "Nickname 42",
+      "nickname": "Halanel",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -421,7 +421,7 @@
     },
     {
       "id": 43,
-      "nickname": "Nickname 43",
+      "nickname": "Ininn",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -431,7 +431,7 @@
     },
     {
       "id": 44,
-      "nickname": "Nickname 44",
+      "nickname": "Zaik",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -441,7 +441,7 @@
     },
     {
       "id": 45,
-      "nickname": "Nickname 45",
+      "nickname": "Vania",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -451,7 +451,7 @@
     },
     {
       "id": 46,
-      "nickname": "Nickname 46",
+      "nickname": "Zra",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -461,7 +461,7 @@
     },
     {
       "id": 47,
-      "nickname": "Nickname 47",
+      "nickname": "Aduner",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -471,7 +471,7 @@
     },
     {
       "id": 48,
-      "nickname": "Nickname 48",
+      "nickname": "Cajue",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -481,7 +481,7 @@
     },
     {
       "id": 49,
-      "nickname": "Nickname 49",
+      "nickname": "Xilingen",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -491,7 +491,7 @@
     },
     {
       "id": 50,
-      "nickname": "Nickname 50",
+      "nickname": "Uilipalh",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -503,7 +503,7 @@
   "losers": [
     {
       "id": 110,
-      "nickname": "Nickname 110",
+      "nickname": "Harivee",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -513,7 +513,7 @@
     },
     {
       "id": 120,
-      "nickname": "Nickname 120",
+      "nickname": "Eoustisa",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -523,7 +523,7 @@
     },
     {
       "id": 130,
-      "nickname": "Nickname 130",
+      "nickname": "Waurybssm",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -533,7 +533,7 @@
     },
     {
       "id": 140,
-      "nickname": "Nickname 140",
+      "nickname": "Fano",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -543,7 +543,7 @@
     },
     {
       "id": 150,
-      "nickname": "Nickname 150",
+      "nickname": "Olali",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -553,7 +553,7 @@
     },
     {
       "id": 160,
-      "nickname": "Nickname 160",
+      "nickname": "Gatesarre",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -563,7 +563,7 @@
     },
     {
       "id": 170,
-      "nickname": "Nickname 170",
+      "nickname": "Kyala",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -573,7 +573,7 @@
     },
     {
       "id": 180,
-      "nickname": "Nickname 180",
+      "nickname": "Eyitevi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -583,7 +583,7 @@
     },
     {
       "id": 190,
-      "nickname": "Nickname 190",
+      "nickname": "Emoja",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -593,7 +593,7 @@
     },
     {
       "id": 200,
-      "nickname": "Nickname 200",
+      "nickname": "Zeliyo",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -603,7 +603,7 @@
     },
     {
       "id": 210,
-      "nickname": "Nickname 210",
+      "nickname": "Genea",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -613,7 +613,7 @@
     },
     {
       "id": 220,
-      "nickname": "Nickname 220",
+      "nickname": "Nenahi",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -623,7 +623,7 @@
     },
     {
       "id": 230,
-      "nickname": "Nickname 230",
+      "nickname": "Farr",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -633,7 +633,7 @@
     },
     {
       "id": 240,
-      "nickname": "Nickname 240",
+      "nickname": "Deal",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -643,7 +643,7 @@
     },
     {
       "id": 250,
-      "nickname": "Nickname 250",
+      "nickname": "Vesobeta",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -653,7 +653,7 @@
     },
     {
       "id": 260,
-      "nickname": "Nickname 260",
+      "nickname": "Cyaniatri",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -663,7 +663,7 @@
     },
     {
       "id": 270,
-      "nickname": "Nickname 270",
+      "nickname": "Jand",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -673,7 +673,7 @@
     },
     {
       "id": 280,
-      "nickname": "Nickname 280",
+      "nickname": "Galeiarel",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -683,7 +683,7 @@
     },
     {
       "id": 290,
-      "nickname": "Nickname 290",
+      "nickname": "Phinnuangeonel",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -693,7 +693,7 @@
     },
     {
       "id": 300,
-      "nickname": "Nickname 300",
+      "nickname": "Nick",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -703,7 +703,7 @@
     },
     {
       "id": 310,
-      "nickname": "Nickname 310",
+      "nickname": "Tfar",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -713,7 +713,7 @@
     },
     {
       "id": 320,
-      "nickname": "Nickname 320",
+      "nickname": "Teliar",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -723,7 +723,7 @@
     },
     {
       "id": 330,
-      "nickname": "Nickname 330",
+      "nickname": "Vindinezu",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -733,7 +733,7 @@
     },
     {
       "id": 340,
-      "nickname": "Nickname 340",
+      "nickname": "Tani",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -743,7 +743,7 @@
     },
     {
       "id": 350,
-      "nickname": "Nickname 350",
+      "nickname": "Jamanosh",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -753,7 +753,7 @@
     },
     {
       "id": 360,
-      "nickname": "Nickname 360",
+      "nickname": "Ianneye",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -763,7 +763,7 @@
     },
     {
       "id": 370,
-      "nickname": "Nickname 370",
+      "nickname": "Ndac",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -773,7 +773,7 @@
     },
     {
       "id": 380,
-      "nickname": "Nickname 380",
+      "nickname": "Sadu",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -783,7 +783,7 @@
     },
     {
       "id": 390,
-      "nickname": "Nickname 390",
+      "nickname": "Dayiadin",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -793,7 +793,7 @@
     },
     {
       "id": 400,
-      "nickname": "Nickname 400",
+      "nickname": "Dini",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -803,7 +803,7 @@
     },
     {
       "id": 410,
-      "nickname": "Nickname 410",
+      "nickname": "Kopari",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -813,7 +813,7 @@
     },
     {
       "id": 420,
-      "nickname": "Nickname 420",
+      "nickname": "Urt",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -823,7 +823,7 @@
     },
     {
       "id": 430,
-      "nickname": "Nickname 430",
+      "nickname": "Idel",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -833,7 +833,7 @@
     },
     {
       "id": 440,
-      "nickname": "Nickname 440",
+      "nickname": "Tinah",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -843,7 +843,7 @@
     },
     {
       "id": 450,
-      "nickname": "Nickname 450",
+      "nickname": "Ialphark",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -853,7 +853,7 @@
     },
     {
       "id": 460,
-      "nickname": "Nickname 460",
+      "nickname": "Oihayity",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -863,7 +863,7 @@
     },
     {
       "id": 470,
-      "nickname": "Nickname 470",
+      "nickname": "Nchaneri",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -873,7 +873,7 @@
     },
     {
       "id": 480,
-      "nickname": "Nickname 480",
+      "nickname": "Nistiffa",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -883,7 +883,7 @@
     },
     {
       "id": 490,
-      "nickname": "Nickname 490",
+      "nickname": "Kaltobrontingt",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -893,7 +893,7 @@
     },
     {
       "id": 500,
-      "nickname": "Nickname 500",
+      "nickname": "Ceyamellimilto",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -903,7 +903,7 @@
     },
     {
       "id": 510,
-      "nickname": "Nickname 510",
+      "nickname": "Taliolbanionwe",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -913,7 +913,7 @@
     },
     {
       "id": 520,
-      "nickname": "Nickname 520",
+      "nickname": "Jobilijanaliro",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -923,7 +923,7 @@
     },
     {
       "id": 530,
-      "nickname": "Nickname 530",
+      "nickname": "Taitainanianis",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -933,7 +933,7 @@
     },
     {
       "id": 540,
-      "nickname": "Nickname 540",
+      "nickname": "Usalisleya",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -943,7 +943,7 @@
     },
     {
       "id": 550,
-      "nickname": "Nickname 550",
+      "nickname": "Rlianchana",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -953,7 +953,7 @@
     },
     {
       "id": 560,
-      "nickname": "Nickname 560",
+      "nickname": "Briki",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -963,7 +963,7 @@
     },
     {
       "id": 570,
-      "nickname": "Nickname 570",
+      "nickname": "Lencessand",
       "currentUser": false,
       "kills": 1,
       "deaths": 0,
@@ -973,7 +973,7 @@
     },
     {
       "id": 580,
-      "nickname": "Nickname 580",
+      "nickname": "Encianang",
       "currentUser": false,
       "kills": 1,
       "deaths": 1,
@@ -983,7 +983,7 @@
     },
     {
       "id": 590,
-      "nickname": "Nickname 590",
+      "nickname": "Hanyakapi",
       "currentUser": false,
       "kills": 9,
       "deaths": 4,
@@ -993,7 +993,7 @@
     },
     {
       "id": 600,
-      "nickname": "Nickname 600",
+      "nickname": "Wrebela",
       "currentUser": false,
       "kills": 9,
       "deaths": 4,
